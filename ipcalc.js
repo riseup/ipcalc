@@ -101,13 +101,13 @@ function calc(input) {
       ip: ip.join("."),
       ip_binary: ipToBinary(ip),
       network: {
-        prefix,
-        num_hosts: numHosts.toString(),
-        num_networks: numNetworks.toString(),
-        ipv4_class: ipv4Class,
         network: network.join("."),
         network_binary: ipToBinary(network),
+        prefix,
+        ipv4_class: ipv4Class,
         ip_range: {
+          num_hosts: numHosts.toString(),
+          num_networks: numNetworks.toString(),
           first_ip: {
             first_ip: firstIp.join("."),
             first_ip_binary: ipToBinary(firstIp),
@@ -115,7 +115,7 @@ function calc(input) {
           last_ip: {
             last_ip: lastIp.join("."),
             last_ip_binary: ipToBinary(lastIp),
-          },  
+          },
         },
       },
       netmask: {

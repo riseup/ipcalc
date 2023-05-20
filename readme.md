@@ -14,13 +14,13 @@ node ipcalc.js 192.168.1.1/24
     "ip": "192.168.1.1",
     "ip_binary": "11000000.10101000.00000001.00000001",
     "network": {
-      "prefix": 24,
-      "num_hosts": "254",
-      "num_networks": "16777216",
-      "ipv4_class": "C",
       "network": "192.168.1.0",
       "network_binary": "11000000.10101000.00000001.00000000",
+      "prefix": 24,
+      "ipv4_class": "C",
       "ip_range": {
+        "num_hosts": "254",
+        "num_networks": "16777216",
         "first_ip": {
           "first_ip": "192.168.1.1",
           "first_ip_binary": "11000000.10101000.00000001.00000001"
